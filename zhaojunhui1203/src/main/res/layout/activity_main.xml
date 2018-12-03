@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <com.bwie.zhaojunhui1203.TitleChildView
+       android:id="@+id/title_child_view"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+    <com.bwie.zhaojunhui1203.TextViewName
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最近搜索"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="清空"
+        android:textSize="20sp"
+        />
+
+    <com.bwie.zhaojunhui1203.FlowLayoutText
+        android:id="@+id/flow_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <com.bwie.zhaojunhui1203.TextViewName
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索发现"
+        android:textSize="20sp"
+        />
+
+    <com.bwie.zhaojunhui1203.FlowLayoutText
+        android:id="@+id/flow_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <com.bwie.zhaojunhui1203.TextViewName
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常用分类"
+        android:textSize="20sp"
+        />
+
+    <com.bwie.zhaojunhui1203.FlowLayoutText
+        android:id="@+id/flow_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>
