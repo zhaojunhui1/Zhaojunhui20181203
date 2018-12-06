@@ -1,1 +1,1 @@
-include ':app', ':zhaojunhui1203'
+include ':app', ':zhaojunhui1203', ':qrcode_demo06', ':zhaojunhui1204', ':mvpdemo02', ':zhaojunhui1205'

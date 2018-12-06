@@ -18,8 +18,10 @@ public class TextViewName extends TextView {
         super(context, attrs);
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.FlowLayoutText);
-        int color = typedArray.getColor(R.styleable.FlowLayoutText_textColor, Color.BLACK);
+        int color = typedArray.getColor(R.styleable.FlowLayoutText_textColor, Color.GREEN);
+        float textSize = typedArray.getDimension(R.styleable.FlowLayoutText_textSize, 30);
         setTextColor(color);
+        setTextSize(textSize);
         typedArray.recycle();
     }
 }

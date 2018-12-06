@@ -9,7 +9,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mvpdemo02" />
+            <option value="$PROJECT_DIR$/qrcode_demo06" />
             <option value="$PROJECT_DIR$/zhaojunhui1203" />
+            <option value="$PROJECT_DIR$/zhaojunhui1204" />
+            <option value="$PROJECT_DIR$/zhaojunhui1205" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

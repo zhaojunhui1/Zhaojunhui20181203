@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 20; i++) {
             final TextView textView = new TextView(MainActivity.this);
             textView.setText("电动牙刷"+i);
             flow_two.addView(textView);
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 20; i++) {
             TextView textView = new TextView(MainActivity.this);
             textView.setText("基础护肤"+i);
             flow_three.addView(textView);
